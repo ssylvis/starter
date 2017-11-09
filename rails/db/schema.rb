@@ -12,9 +12,8 @@
 
 ActiveRecord::Schema.define(version: 20171109004342) do
 
-  create_table "articles", force: :cascade do |t|
-    t.string "title"
-    t.text "text"
+  create_table "notes", force: :cascade do |t|
+    t.string "note"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
